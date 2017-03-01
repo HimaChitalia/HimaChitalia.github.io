@@ -1,0 +1,21 @@
+# Site settings
+title: coding and coffee
+header-img: img/home-bg.png
+email: hima_chhag@yahoo.com
+copyright_name: HimaChitalia
+description: > # this means to ignore newlines until "baseurl:"
+  One step at a time!
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: Hima Chhag
+github_username:  HimaChitalia
+learn_profile: HimaChitalia
+email_username: hima_chhag@yahoo.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
