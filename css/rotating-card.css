@@ -1,8 +1,13 @@
 body {
 	margin-top: 60px;
 	font-size: 14px;
-	font-family: "Helvetica Nueue",Arial,Verdana,sans-serif;
 	background-color: #E5E9ED;
+}
+
+.font{
+	font-family: 'Merriweather', serif;
+	font-size: 15px;
+
 }
 .btn:hover,
 .btn:focus,
@@ -89,7 +94,7 @@ body {
 }
 .card-container, .front, .back {
 	width: 100%;
-	height: 420px;
+	height:250px;
 	border-radius: 4px;
 }
 .card .cover{
@@ -106,7 +111,7 @@ body {
     height: 120px;
     margin: -55px auto 0;
     overflow: hidden;
-    width: 120px;
+  /*  width: 240px; */
 }
 .card .user img{
     background: none repeat scroll 0 0 #FFFFFF;
@@ -123,7 +128,7 @@ body {
     min-height: 160px;
 }
 .card .back .content .main {
-    height: 215px;
+    height: 200px;
 }
 .card .name {
     font-size: 22px;
@@ -137,7 +142,7 @@ body {
     font-weight: 400;
     line-height: 20px;
 }
-.card .profession{
+.card .tech{
     color: #999999;
     text-align: center;
     margin-bottom: 20px;
@@ -178,7 +183,7 @@ body {
 .card .stats{
 	display: block;
 	float: left;
-	width: 33.333333%;
+	/*width: 49%;*/
 	text-align: center;
 }
 
@@ -255,19 +260,27 @@ body {
     color: #999;
 }
 
-.btn-simple{
+.btn-primary{
     opacity: .8;
-    color: #666666;
+    color: orange;
     background-color: transparent;
+		border-color: orange;
+		border-style: solid;
+		border-width: thin;
+		margin: 10px;
 }
 
-.btn-simple:hover,
-.btn-simple:focus{
-    background-color: transparent;
+.btn-primary:hover,
+.btn-primary:focus{
+    background-color: orange;
+		color: white;
     box-shadow: none;
     opacity: 1;
+		border-color: black;
+		border-style: solid;
+		border-width: thin;
 }
-.btn-simple i{
+.btn-primary i{
     font-size: 16px;
 }
 

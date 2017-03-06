@@ -37,8 +37,17 @@
 }
 
 
+.projects {
+  position: absolute;
+  top: 90px;
+  right: 115px;
+}
 
-
+.projects-1 {
+  position: absolute;
+  top: 375px;
+  right: 115px;
+}
 
 #firstblock {
   color: white;
