@@ -94,7 +94,7 @@ body {
  }
 
 
-
+/*////// FOOTER ///////*/
 
 
 .footer{
@@ -159,6 +159,7 @@ body {
   color: white;
   font-family: 'Handlee', cursive;
   font-size: 20px;
+  margin-bottom: -100px;
 }
 
 .opportunity a{
