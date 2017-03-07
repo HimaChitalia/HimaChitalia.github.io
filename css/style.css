@@ -213,9 +213,10 @@ img, video, audio, iframe, table, form {
 
 /*//// MEDIA ////*/
 
-@media screen  (min-width: 1330px) {
-  .container-fluid > .card-container > .card1 {
-
-    width: 500px;
+@media screen  (max-width: 500px) {
+  .card-container, .front, .back {
+  	width: 100%;
+  	height:350px;
+  	border-radius: 4px;
   }
 }
