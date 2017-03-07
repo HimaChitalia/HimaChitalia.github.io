@@ -332,7 +332,7 @@ body {
     }
 }
 
-@media only screen (max-width: 1330px){
+/*@media only screen (max-width: 1330px){
 	.card-container{
 		display: block;
 		width: 100%;
@@ -355,5 +355,12 @@ body {
 	.card4{
 		position: relative;
 		z-index: 23;
+	}
+} */
+
+
+@media only screen (max-width: 1330px){
+	.info {
+		display: none;
 	}
 }

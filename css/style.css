@@ -211,6 +211,11 @@ img, video, audio, iframe, table, form {
   line-height: 0;
 }
 
-.projectlink {
-  align-items: center;
+/*//// MEDIA ////*/
+
+@media screen  (min-width: 1330px) {
+  .container-fluid > .card-container > .card1 {
+
+    width: 500px;
+  }
 }
