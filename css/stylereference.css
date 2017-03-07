@@ -1,0 +1,188 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+/*///// DIVS /////*/
+
+/* #wrapper { position: relative; } */
+
+div {
+  position: absolute;
+  left: 400px;
+}
+
+.col-1{
+  float: left;
+  width:32%;
+}
+
+.col-2 {
+  float: right;
+  width: 64%;
+}
+
+.col-3{
+  width: 100%;
+}
+
+#firstblock {
+  color: white;
+  position: absolute;
+  top: 120px;
+  left: 400px;
+}
+
+.opportunity{
+  position: absolute;
+  width:100%;
+  color: white;
+  font-family: 'Handlee', cursive;
+  font-size: 20px;
+}
+
+.opportunity a{
+  color: yellow;
+}
+
+#main_nav {
+  z-index: 6;
+}
+
+#home {
+  z-index: 5;
+}
+
+#about {
+  z-index: 4;
+}
+
+#my-projects {
+  z-index: 3;
+}
+
+#projects-1 {
+  z-index: 2;
+}
+
+#footer {
+  z-index: 1;
+}
+/*//// HTML TAGS //////*/
+
+h1 {
+ font-family: 'Oswald', sans-serif;
+ font-size: 45px;
+ letter-spacing: 1px;
+}
+
+h3 {
+ font-family: 'Oswald', sans-serif;
+ font-size: 70px;
+ color: orange;
+}
+
+h4{
+ font-family: 'Handlee', cursive;
+  font-size: 30px;
+}
+
+
+./*///// NAVBAR ////*/
+
+.navbar-default { background-color: transparent; border-color: transparent; -webkit-transition: all 0.35s; -moz-transition: all 0.35s; transition: all 0.35s; font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif'; font-weight: 300; letter-spacing: 1px; font-size: 5em; /* while fixed */ }
+.navbar-default .navbar-header .navbar-brand { font-family: 'Arial', 'sans-serif'; font-size: 1em; color: #303030; font-weight: 200; text-transform: uppercase; padding: 20px 40px; }
+.navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus { color: #FF0000; }
+.navbar-default .navbar-header .navbar-toggle {font-family: 'Arial', 'sans-serif'; font-size: 1em; color: #303030; font-weight: 200; text-transform: uppercase; padding: 20px 40px;}
+.navbar-default .nav > li > a { font-family: 'Arial', 'sans-serif'; text-transform: uppercase; letter-spacing: 2px; font-size: 1em; font-weight: 200; color: #303030; padding: 20px 40px;  }
+.navbar-default .nav > li > a:focus { color: #FF0000; }
+.navbar-default .nav > li > a:hover, .navbar-default .nav > li > a:focus:hover { color: #FF0000; }
+.navbar-default .nav > li.active > a { color: #FF0000; background-color: transparent; }
+.navbar-default .nav > li.active > a:focus { color: #FF0000; background-color: transparent; }
+.navbar-default .nav > li.active > a:hover, .navbar-default .nav > li.active > a:focus:hover { background-color: transparent; }
+.navbar-default .nav > li > a.selected { color: #fff; background-color: black;}
+.navbar-default .affix { background-color: white; }
+.navbar-default .affix .navbar-header .navbar-brand:hover, .navbar-default .affix .navbar-header .navbar-brand:focus { color: #FF0000; }
+.navbar-default .affix .nav > li.active > a { color: #FF0000; }
+.navbar-default .affix .nav > li.active > a:focus { color: #FF0000; }
+.navbar-default .affix .nav > li > a:hover, .navbar-default .affix .nav > li > a:active, .navbar-default .affix .nav > li > a:focus, .navbar-default .affix .nav > li > a:focus:hover { color: #FF0000; }
+
+
+/*//// IMAGES, VIDEOS ////*/
+
+img, video, audio, iframe, table, form {
+  width: 100%; /* IE */
+  max-width: 100%; /* FF, Safari, Chrome */
+}
+
+.contact-icons{
+  display: inline-block;
+  position: absolute;
+  top: 360px;
+  left: 700px;
+}
+
+.mypic {
+  width: 200px;
+  padding: 40px;
+  margin: 2px;
+}
+
+.imgsize {
+  width: 100px;
+  -webkit-animation:spin 4s linear 2;
+ -moz-animation:spin 4s linear 2;
+ animation:spin 4s linear 2;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.cont-size {
+    width: 100px;
+    padding: 15px;
+}
+
+/*////// FOOTER ///////*/
+
+
+#footer{
+   background-color: white;
+   position: absolute;
+   bottom:0;
+   width:100%;
+   height: 100px;
+   left: 0;
+   letter-spacing: 1px;
+   font-family: 'Handlee', cursive;
+   font-size: 15px;
+   }
+
+#footer-social {
+  display: inline-block;
+  padding: 20px;
+  align-content: center;
+}
+
+.social-size{
+  width: 20px;
+  padding: 0px, 25px;
+  align-items: center;
+}
+
+
+/*////// CLEARFIX //////*/
+
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}

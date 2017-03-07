@@ -5,71 +5,115 @@
   box-sizing: border-box;
 }
 
-/*body {
-    background-image:url('../img/new-image_3.png');
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-}*/
-
-.col-1{
-  float: left;
-  width:32%;
+h1 {
+ font-family: 'Oswald', sans-serif;
+ font-size: 45px;
+ letter-spacing: 1px;
 }
 
-.col-2 {
-  float: right;
-  width: 64%;
+h3 {
+ font-family: 'Oswald', sans-serif;
+ font-size: 70px;
+ color: orange;
 }
 
-.col-3{
-  width: 100%;
-}
-
-.col-4{
-  float: left;
-  width:20%;
-}
-
-.col-5 {
-  float: right;
-  width: 78%;
+h4{
+ font-family: 'Handlee', cursive;
+  font-size: 30px;
 }
 
 
-.projects {
-  position: absolute;
-  top: 90px;
-  right: 115px;
+body {
+  padding-top: 50px;
+  padding-left:  30px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+    padding-left: 0px;
+  }
 }
 
-.projects-1 {
-  position: absolute;
-  top: 375px;
-  right: 115px;
+/*///// HOME /////*/
+
+
+#home{
+  padding-top: 40px;
+  position: relative;
+  z-index: 9;
+
 }
 
 #firstblock {
   color: white;
-  position: absolute;
-  top: 120px;
-  left: 400px;
+  text-align: center;
+  align-items: center;
+
+
 }
+
+#home2 {
+  position: relative;
+  z-index: 8;
+}
+
+#hr {
+  position: relative;
+  z-index: 7;
+}
+
+#about {
+  position: relative;
+  z-index: 6;
+  /*top: 600px;
+  left:0px;*/
+  width:100%;
+  color: white;
+  font-family: 'Handlee', cursive;
+  font-size: 20px;
+  margin-bottom: -100px;
+}
+
+.opportunity a{
+  color: yellow;
+}
+
+#hr1 {
+  position: relative;
+  z-index: 5;
+}
+
+
+#projects {
+  position: relative;
+  z-index: 4;
+  /*top: 90px;
+  right: 115px; */
+}
+
+#projects-1 {
+  position: relative;
+  z-index: 3;
+  /*top: 375px;
+  right: 115px; */
+}
+
+
 
 #logobox {
   position: absolute;
-  top: 90px;
-  right: 700px;
+/*  top: 100px;
+  right: 500px; */
   padding: 0;
   margin: 0;
 }
 
-.contact-icons{
+/*.contact-icons{
   display: inline-block;
   position: absolute;
   top: 360px;
   left: 700px;
-}
+}*/
 
 .mypic {
   width: 200px;
@@ -98,21 +142,22 @@ img, video, audio, iframe, table, form {
   max-width: 100%; /* FF, Safari, Chrome */
 }
 
-body {
-  text-align: center;
- }
 
 
 /*////// FOOTER ///////*/
 
-
-.footer{
+#fullfooter {
   background-color: white;
-   position: absolute;
-   bottom:0;
-   width:100%;
-   height: 100px;
-   left: 0;
+  position: relative;
+  z-index: 1
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  align-content: center;
+}
+
+#footer{
    letter-spacing: 1px;
    font-family: 'Handlee', cursive;
    font-size: 15px;
@@ -120,6 +165,7 @@ body {
 
 #footer-social {
   display: inline-block;
+
   padding: 20px;
   align-content: center;
 }
@@ -153,27 +199,8 @@ body {
 /*///// FONTS //////*/
 
 
+/*/// CLEARFIX ////*/
 
-
-
-/*//// GRADIENTS //////*/
-
-
-
-.opportunity{
-  position: absolute;
-  top: 60px;
-  left:0px;
-  width:100%;
-  color: white;
-  font-family: 'Handlee', cursive;
-  font-size: 20px;
-  margin-bottom: -100px;
-}
-
-.opportunity a{
-  color: yellow;
-}
 
 .clearfix:after {
   content: ".";
@@ -182,4 +209,8 @@ body {
   visibility: hidden;
   height: 0;
   line-height: 0;
+}
+
+.projectlink {
+  align-items: center;
 }

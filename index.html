@@ -9,7 +9,13 @@
 
     <!-- Bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CUSTOM CSS -->
+    <!-- <link href="../css/stylereference.css" rel="stylesheet"> -->
     <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/rotating-card.css" rel="stylesheet">
+    <link href="../css/scrolling-nav.css" rel="stylesheet">
+
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -20,30 +26,18 @@
     <![endif]-->
 
     <!-- CUSTOM FONTS -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Caesar+Dressing'" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Caesar+Dressing'" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine:bold">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald:bold">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Handlee">
-   <style>
-     h1 {
-       font-family: 'Oswald', sans-serif;
-       font-size: 45px;
-       letter-spacing: 1px;
-
-
-     }
-     h3 {
-       font-family: 'Handlee', cursive;
-       font-size: 30px;
-
-     }
-   </style>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather" >
 
 
   </head>
 
 
  <body background="../img\texture-1893783_1280.jpg">
+
 
       <div class="container">
                 <nav id= "main_nav" class="navbar navbar-default navbar-fixed-top">
@@ -53,7 +47,7 @@
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                       <span class="sr-only">Toggle navigation</span>Menu <i class="fa fa-bars"></i>
                       </button>
-                    <a class="navbar-brand selected" href="index.html">Hima Chitalia</a>
+                    <a class="navbar-brand selected page-scroll" href="/">Hima Chitalia</a>
                   </div>
 
                   <!-- Collect the nav links, forms, and other content for toggling -->
@@ -61,10 +55,10 @@
 
                     <!-- Main nav bar -->
                     <ul class="nav navbar-nav navbar-right">
-                     <li><a href="about.html">About</a>
+                     <li><a class= "page-scroll" href="#about">About</a>
                        </li>
                        <li>
-                         <a href="my-project.html">Portfolio</a>
+                         <a class= "page-scroll" href="#projects">Portfolio</a>
                        </li>
                        <li>
                          <a href="https://himachitalia.wordpress.com/" target="_blank">Blog</a>
@@ -79,43 +73,207 @@
   <!-- Main-header -->
 
 <header>
+ <!-- Min Section -->
+ <div id="mainbody">
+     <div class="container-fluid">
+                      <div class="row" id="home">
 
-    <div class="container" id="logobox">
+                          <div class="col-sm-2 logo"  id="logobox">
+                            <img class="animation imgsize" src="../img/Logo2.png" alt="My Website logo">
+                          </div> <!-- .col-ms-4 .logo -->
 
-        <div class="col-3 logo">
-          <img class="animation imgsize" src="../img/Logo2.png" alt="My Website logo">
 
-        </div> <!-- .col-ms-4 .logo -->
+                  <!--  </div> <!-- .container-fluid -> -->
+                     <!-- <div class="container-fluid"> -->
+                              <div class="col-sm-7 col-sm-offset-3" id="firstblock">
+                              <br/> <br/>    <h1> I am here for years of fruitful collaboration.</h1>
+                                <br/><h4> Please feel free to contact me for all your Coding and Marketing need.</h4> <br/> <br/>
 
-      </div> <!-- .container -->
-       <div class="container">
-        <div class="col-1"> </div>
-        <div class="col-2" id="firstblock">
-          <h1> I am here for the years of fruitful collaboration.</h1>
-        <br/><h3> Please feel free to contact me for all your Coding and Marketing need.</h3>
-    </div><!-- .container -->
-    <div class="contact-icons">
-     <a href="https://twitter.com/himachhag" target="_blank"><img class="cont-size" src="../img\Twitter-Bird-128.png" alt="Contact me on twitter"></a>
-     <a href="mailto:hima.chitalia@gmail.com" target="_blank"><img class="cont-size" src="../img\Message-Mail-128.png" alt="Send me an email"></a>
-   </div>
- </header>
+                              <!--  <div class="contact-icons"> -->
+                                 <a href="https://twitter.com/himachhag" target="_blank"><img class="cont-size" src="../img\Twitter-Bird-128.png" alt="Contact me on twitter"></a>
+                                 <a href="mailto:hima.chitalia@gmail.com" target="_blank"><img class="cont-size" src="../img\Message-Mail-128.png" alt="Send me an email"></a>
+                                    <!--  </div> -->
+                       </div> <!-- col-sm-10  -->
+
+                 </div> <!-- ROW -->
+
+                 <div class="row" id="hr" >  <br/><br/><br/><br/><br/><br/>    <hr width="75%"> </div>
+             <!-- </div><!-- .container-fluid -> -->
+
+
+  <!-- About -->
+
+                  <!--<div class="container-fluid opportunity"s id="about"> -->
+
+                        <div class="row opportunity" id="about">
+                          <div class="col-sm-4 mypic">
+                                  <img src="../img\Hima.jpg" alt="Hima Chitalia's Picture">
+                                </div> <!-- col-ms-4 mypic -->
+                                <div class="col-sm-6 col-sm-offset-2">
+                                  <br /><br />     <p style="text-align:left">Hi, my amazing visitor! I hope you are having great time browsing through this website.</p>
+                                      <br />  <p style="text-align:left"> Let me introduce myself first. I am hima chitalia. I am in love with coding and have a strong marketing background. I am a blogger, digital worm, positive thinker, and yes, a big dreamer. I am also a mother of a beautiful girl, Baani. When I have some time for myself, I prefer to travel, read and write.</p>
+                                      <br />  <p style="text-align:left"> To dive into deep sea of programing, I decided to join a coding school and my search for the great school, dropped me to <a href="https://flatironschool.com/" target="blank">Flatiron School</a>. I am a current student and going to make some interesting projects.</p>
+                                         <br /><p style="text-align:left">Please click <a href="my_projects.html">here</a> if you would like to look at my work.</p>
+                                         <br /><p style="text-align:left">Please click <a href="https://himachitalia.wordpress.com/" target="_blank">here</a> if you would like to look at my blog.</p>
+                                       </br><p style="text-align:left"> This is a place to discuss all about Codes and Digital Marketing. If you would like to tell me anything or if you have any valuable suggestion to make this place more interesting, please feel free to let me know in suggestion box below.</p>
+                                       <br /><p style="text-align:left">Let's shorten our world, Be digitalized..</p> <br /><br />
+                                 </div> <!-- col-sm-8  -->
+                              </div>
+                            <div class="row" id="hr1" >  <br/><br/><br/><br/><br/><br/>    <hr width="75%"> </div> <br /><br />  <br /><br />
+
+
+  <!-- My_Project_Section -->
+                      <div class="row"  id="projects">
+                        <div class="col-sm-10 col-sm-offset-1">
+                                <div class="col-md-6 col-sm-4">
+                                    <div class="card-container card1">
+                                       <div class="card w-50">
+                                           <div class="front cardbackground">
+
+                                               <div class="content">
+                                                   <div class="main">
+                                                       <h3 class="name">Cli RubyGem Project</h3> <br />
+                                                       <p class="tech">HTML | CSS | Ruby | Twitter API</p>
+                                                       <hr>
+                                                     <br/>  <p class="font">My first project that I will be making in few weeks. I will need to make my application interactive (take user input and display some output) by using object oriented principles.</p>
+                                                   </div>
+                                                 </div>
+                                           </div> <!-- end front panel -->
+                                           <div class="back">
+                                             <div class="content projectlink">
+                                                   <div class="main text-center">
+                                                   <br/><br/><h4 class="text-center font">Please click below links to know more details of this project.</h4><br/><br/>
+                                                       <a class="btn btn-primary content-center" href="https://youtube.com" target="_blank">Youtube Video</a>
+                                                       <a class="btn btn-primary content-center" href="https://github.com/" target="_blank">Github Repo</a>
+                                                   </div>
+                                               </div>
+                                           </div> <!-- end back panel -->
+                                       </div> <!-- end card -->
+                                   </div> <!-- end card-container -->
+                                </div> <!-- end col md 6 -->
+
+
+
+                                <div class="col-md-6 col-sm-4">
+                                   <div class="card-container card2">
+                                      <div class="card w-50">
+                                          <div class="front cardbackground">
+
+                                              <div class="content">
+                                                  <div class="main">
+                                                      <h3 class="name">Sinatra Portfolio Project</h3> <br />
+                                                      <p class="tech">HTML | CSS | Ruby | Twitter API | SQL | Rack | Sinatra</p>
+                                                      <hr>
+                                                    <br/>  <p class="font">This is going to be my second project. For this assessment I'll be creating any sort of CRUD app. The app will be a custom app that will be created to track something important.</p>
+                                                  </div>
+                                                </div>
+                                          </div> <!-- end front panel -->
+                                          <div class="back">
+                                            <div class="content projectlink">
+                                                  <div class="main text-center">
+                                                  <br/><br/><h4 class="text-center font">Please click below links to know more details of this project.</h4><br/><br/>
+                                                      <a class="btn btn-primary content-center" href="https://youtube.com" target="_blank">Youtube Video</a>
+                                                      <a class="btn btn-primary content-center" href="https://github.com/" target="_blank">Github Repo</a>
+                                                  </div>
+                                              </div>
+                                          </div> <!-- end back panel -->
+                                      </div> <!-- end card -->
+                                  </div> <!-- end card-container -->
+                                </div>  <!-- end col md 6 -->
+                        </div> <!-- end col-sm-10 -->
+                      </div> <!-- ROW --> <br /><br />
+
+
+
+                      <!-- More Projects -->
+                  <div class="row"  id="projects-1">
+                      <div class="col-sm-10 col-sm-offset-1">
+                                <div class="col-md-6 col-sm-4">
+                                  <div class="card-container card3">
+                                     <div class="card w-50">
+                                         <div class="front cardbackground">
+
+                                             <div class="content">
+                                                 <div class="main">
+                                                     <h3 class="name">Rails Project</h3> <br />
+                                                     <p class="tech"> Rails | JS | jQuery | JSON Api</p>
+                                                     <hr>
+                                                   <br/>  <p class="font">My third interesting project. Here, I am going to build a complete Ruby on Rails application that manages related data through complex forms and RESTful routes and also to add dynamic features that are possible only through jQuery and a JSON Api.</p>
+                                                 </div>
+                                               </div>
+                                         </div> <!-- end front panel -->
+                                         <div class="back">
+                                           <div class="content projectlink">
+                                                 <div class="main text-center">
+                                                 <br/><br/><h4 class="text-center font">Please click below links to know more details of this project.</h4><br/><br/>
+                                                     <a class="btn btn-primary content-center" href="https://youtube.com" target="_blank">Youtube Video</a>
+                                                     <a class="btn btn-primary content-center" href="https://github.com/" target="_blank">Github Repo</a>
+                                                 </div>
+                                             </div>
+                                         </div> <!-- end back panel -->
+                                     </div> <!-- end card -->
+                                 </div> <!-- end card-container -->
+                                </div>  <!-- end col md 6 -->
+
+
+
+                                <div class="col-md-6 col-sm-4">
+                                 <div class="card-container card4">
+                                    <div class="card w-50">
+                                        <div class="front cardbackground">
+
+                                            <div class="content">
+                                                <div class="main">
+                                                    <h3 class="name">React Redux Project</h3> <br />
+                                                    <p class="tech">HTML | CSS | Ruby | Twitter API | SQL | Rack | Sinatra | Rails | jQuery | JSON Api | JS | Redux</p>
+                                                    <hr>
+                                                  <br/>  <p class="font">This is going to be my final project with Flatiron School. For this assessment I am free to create whatever I'd like, as long as it incorporates most of what I will be learning in this course.</p>
+                                                </div>
+                                              </div>
+                                        </div> <!-- end front panel -->
+                                        <div class="back">
+                                          <div class="content projectlink">
+                                                <div class="main text-center">
+                                                <br/><br/><h4 class="text-center font">Please click below links to know more details of this project.</h4><br/><br/>
+                                                    <a class="btn btn-primary content-center" href="https://youtube.com" target="_blank">Youtube Video</a>
+                                                    <a class="btn btn-primary content-center" href="https://github.com/" target="_blank">Github Repo</a>
+                                                </div>
+                                            </div>
+                                        </div> <!-- end back panel -->
+                                    </div> <!-- end card -->
+                                </div> <!-- end card-container -->
+                                </div>  <!-- end col md 6 -->
+                      </div> <!-- end col-sm-10 -->
+                    </div> <!-- ROW --><br /><br />  <br /><br />  <br /><br />
+                  </div> <!--  mainbody -->
+              </div> <!-- container-fluid -->
+  </header>
 
       <!-- main page footer -->
       <footer>
-       <div class="container footer">
-      <p>Made with <span style="font-size:150%;color:red;">&hearts;</span> by Hima Chitalia </p>
-      <div id="footer-social">
-        <a href="https://github.com/HimaChitalia" target="_blank"><img class="social-size" src="../img\GitHub-Mark-32px.png" alt="Check me out on Github"></a>
-       <a href="https://twitter.com/himachhag" target="_blank"><img class="social-size" src="../img\Twitter-Bird-128-black.png" alt="Contact me on twitter"></a>
-       <a href="https://ca.linkedin.com/in/hima-chitalia-a5181027?trk=pub-pbmap" target="_blank"><img class="social-size" src="img\LinkedIn-128-black.png" alt="Contect me on LinkedIn"></a>
-       <a href="mailto:hima.chitalia@gmail.com" target="_blank"><img class="social-size" src="../img\Message-Mail-128-black.png" alt="Send me an email"></a>
-     </div>
+         <div class="container-fluid" id="fullfooter">
+           <div class="row text-center" id="footer">
+              <p>Made with <span style="font-size:150%;color:red;">&hearts;</span> by Hima Chitalia </p>
+            </div> <!-- ROW -->
+            <div class="row" id="footer-social">
+                      <a href="https://github.com/HimaChitalia" target="_blank"><img class="social-size" src="../img\GitHub-Mark-32px.png" alt="Check me out on Github"></a>
+                       <a href="https://twitter.com/himachhag" target="_blank"><img class="social-size" src="../img\Twitter-Bird-128-black.png" alt="Contact me on twitter"></a>
+                       <a href="https://ca.linkedin.com/in/hima-chitalia-a5181027?trk=pub-pbmap" target="_blank"><img class="social-size" src="img\LinkedIn-128-black.png" alt="Contect me on LinkedIn"></a>
+                       <a href="mailto:hima.chitalia@gmail.com" target="_blank"><img class="social-size" src="../img\Message-Mail-128-black.png" alt="Send me an email"></a>
+             </div> <!-- ROW -->
+       </div> <!-- container-fluid -->
    </footer>
 
-</div> <!-- .container -->
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom JS-->
+      <script src="js/jquery.easing.min.js"></script>
+      <script src="js/scrolling-nav.js"></script>
+
+
   </body>
 </html>
