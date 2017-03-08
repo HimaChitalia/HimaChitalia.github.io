@@ -94,9 +94,9 @@ body {
 }
 .card-container, .front, .back {
 	width: 100%;
-	height:275px;
-	overflow-y: scroll;
-	overflow-x: hidden;
+	height:330px;
+	/* overflow-y: scroll;
+	overflow-x: hidden; */
 	border-radius: 4px;
 }
 .card .cover{
@@ -343,17 +343,14 @@ body {
 		position: relative;
 		z-index: 20;
 	}
-
 	.card2{
 		position: relative;
 		z-index: 21;
 	}
-
 	.card3{
 		position: relative;
 		z-index: 22;
 	}
-
 	.card4{
 		position: relative;
 		z-index: 23;
