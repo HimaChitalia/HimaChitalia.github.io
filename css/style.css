@@ -136,6 +136,12 @@ h4{
   color: #f27240;
 }
 
+.opportunity a:hover,
+.opportunity a:focus{
+  color: #DE1B1B;
+  text-decoration: none;
+}
+
 #hr1 {
   position: relative;
   z-index: 5;
