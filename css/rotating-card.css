@@ -1,7 +1,7 @@
 body {
 	margin-top: 60px;
 	font-size: 14px;
-	background-color: #E5E9ED;
+	background-color: #f7f7f7;
 }
 
 .font{
@@ -61,7 +61,7 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-color: #FFF;
+	background-color: #31002e;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
 }
 
@@ -88,21 +88,23 @@ body {
 
 
 .card{
-    background: none repeat scroll 0 0 #FFFFFF;
-    border-radius: 4px;
-    color: #444444;
+    background: none repeat scroll 0 0 #31002e;
+    border-radius: 10px;
+    color: #ffffff;
 }
 .card-container, .front, .back {
 	width: 100%;
 	height:330px;
 	/* overflow-y: scroll;
 	overflow-x: hidden; */
-	border-radius: 4px;
+	border-radius: 10px;
+	border-color: #DE1B1B;
 }
 .card .cover{
     height: 105px;
     overflow: hidden;
-    border-radius: 4px 4px 0 0;
+    border-radius: 10px;
+		border-color: #DE1B1B;
 }
 .card .cover img{
     width: 100%;
@@ -116,13 +118,13 @@ body {
   /*  width: 240px; */
 }
 .card .user img{
-    background: none repeat scroll 0 0 #FFFFFF;
+    background: none repeat scroll 0 0 #31002e;
     border: 4px solid #FFFFFF;
     width: 100%;
 }
 
 .card .content{
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #31002e;;
     box-shadow: none;
     padding: 10px 20px 20px;
 }
@@ -231,7 +233,7 @@ body {
     display: block;
 }
 .white-board{
-    background-color: #FFFFFF;
+    background-color: #7f8184;
     min-height: 200px;
     padding: 60px 60px 20px;
 }
@@ -240,7 +242,7 @@ body {
 }
 
  pre.prettyprint{
-    background-color: #ffffff;
+    background-color: #31002e;
     border: 1px solid #999;
     margin-top: 20px;
     padding: 20px;
@@ -264,9 +266,9 @@ body {
 
 .btn-primary{
     opacity: .8;
-    color: orange;
-    background-color: transparent;
-		border-color: orange;
+    color: #fff;
+    background-color: #f27240;
+		border-color: #f27240;
 		border-style: solid;
 		border-width: thin;
 		margin: 10px;
@@ -274,11 +276,11 @@ body {
 
 .btn-primary:hover,
 .btn-primary:focus{
-    background-color: orange;
+    background-color: #DE1B1B;
 		color: white;
     box-shadow: none;
     opacity: 1;
-		border-color: black;
+		border-color: #DE1B1B;
 		border-style: solid;
 		border-width: thin;
 }
@@ -291,7 +293,7 @@ body {
     padding: 0;
 }
 .navbar-brand-logo .logo{
-    border: 1px solid #333333;
+    border: 1px solid #DE1B1B;
     border-radius: 50%;
     float: left;
     overflow: hidden;
