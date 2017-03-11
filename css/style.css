@@ -8,13 +8,19 @@
 .div-with-bg{
   background-color:#31002e;
 }
+.invisiable{
+  visibility: hidden;
+}
 
-hr.heart {
+div.heart {
 	border-top: 4px double #8c8b8b;
 	text-align: center;
   width: 60%;
+
+  margin-right: 20%x;
+  margin-left: 20%;
 }
-hr.heart:after {
+div.heart:after {
 	content: '\002665';
 	display: inline-block;
 	position: relative;
@@ -25,12 +31,14 @@ hr.heart:after {
 	font-size: 25px;
 }
 
-hr.heart1 {
+div.heart1 {
 	border-top: 4px double #ffffff;
 	text-align: center;
   width: 60%;
+  margin-right: 20%x;
+  margin-left: 20%;
 }
-hr.heart1:after {
+div.heart1:after {
 	content: '\002665';
 	display: inline-block;
 	position: relative;
@@ -108,10 +116,7 @@ h4{
 
 }
 
-#hr {
-  position: relative;
-  z-index: 7;
-}
+
 
 #about {
   position: relative;
@@ -145,11 +150,6 @@ h4{
 .opportunity a:focus{
   color: #DE1B1B;
   text-decoration: none;
-}
-
-#hr1 {
-  position: relative;
-  z-index: 5;
 }
 
 
