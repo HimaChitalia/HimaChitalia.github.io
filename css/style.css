@@ -63,6 +63,11 @@ h3 {
 h4{
  font-family: 'Handlee', cursive;
   font-size: 30px;
+  color: white;
+}
+#styling{
+ font-family: 'Handlee', cursive;
+  font-size: 25px;
   color: #f27240;
 }
 

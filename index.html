@@ -32,6 +32,10 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Handlee">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather" >
 
+    <!-- WEBSITE LOGO FOR ADDRESS BAR -->
+
+    <LINK rel="SHORTCUT ICON" href="../img/LogoNew1.png">
+
 
   </head>
 
@@ -86,15 +90,17 @@
                             <div class="row div-with-bg" id="home">
 
                           <div class="col-sm-2 logo"  id="logobox">
-                            <img class="animation imgsize" src="../img/Logo2.png" alt="My Website logo">
+                            <img class="animation imgsize" src="../img/LogoNew1.png" alt="My Website logo">
                           </div> <!-- .col-ms-4 .logo -->
 
 
                   <!--  </div> <!-- .container-fluid -> -->
                      <!-- <div class="container-fluid"> -->
                               <div class="col-sm-7 col-sm-offset-3" id="firstblock">
-                              <br/> <br/> <br/> <br/>   <h1> I am here for years of fruitful collaboration.</h1>
-                                <br/><h4 style="color:#f27240"> Please feel free to contact me for all your Coding and Marketing needs.</h4> <br/> <br/>
+
+                              <br/> <br/> <br/> <br/> <br/> <br/> <h4 style="color:#fff"> <label id="lblGreetings"></label></h4>
+                               <h3> I am here for years of fruitful collaboration.</h3>
+                                <p id="styling"> Please feel free to contact me for all your Coding and Marketing needs.</p> <br/> <br/>
 
                               <!--  <div class="contact-icons"> -->
                                  <a href="https://twitter.com/himachhag" target="_blank"><img class="cont-size" src="../img\Twitter-Bird-128.png" alt="Contact me on twitter"></a>
@@ -337,6 +343,22 @@
     <!-- Custom JS-->
       <script src="js/jquery.easing.min.js"></script>
       <script src="js/scrolling-nav.js"></script>
+      <script>
+    var myDate = new Date();
+    var hrs = myDate.getHours();
+
+    var greet;
+
+    if (hrs < 12)
+        greet = 'Good Morning';
+    else if (hrs >= 12 && hrs <= 17)
+        greet = 'Good Afternoon';
+    else if (hrs >= 17 && hrs <= 24)
+        greet = 'Good Evening';
+
+    document.getElementById('lblGreetings').innerHTML =
+          greet +', I am Hima Chitalia.';
+</script>
 
 
   </body>
