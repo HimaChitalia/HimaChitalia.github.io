@@ -1,9 +1,11 @@
 ---
 layout: post
 title:  "The Magic of Responsive Design!"
-date:   2017-03-27 17:17:32 +0000
+date:   2017-03-27 13:17:33 -0400
 ---
 
+
+![Imgur](http://i.imgur.com/Kwg1U6N.png)
 
 Being a Marketer for a long time, I was not unfamiliar with the jargon "Responsive Design" or what is the importance of using responsive design on your website! But yes, I had no idea about how it works till I learned it! 
 
