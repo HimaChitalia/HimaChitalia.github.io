@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "My first Ruby Gem 'Popular_deals'"
-date:   2017-04-04 20:19:28 +0000
+date:   2017-04-04 16:19:29 -0400
 ---
 
 
-[Imgur](http://i.imgur.com/Ro62c6S.png)
+![Imgur](http://i.imgur.com/Ro62c6S.png)
 
 I have always heard people saying that learning and putting that knowledge in work is two completly diffrent experience. And yes, I agree with it. Learing about Ruby language was a very delightful experience but actually making a ruby gem was completely different.
 
