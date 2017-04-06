@@ -366,7 +366,7 @@ body {
 	}
 }
 
-@media only screen (max-width: 500px){
+@media only screen (max-width: 400px){
 	.card-container, .front, .back {
 		width: 100%;
 		height: auto;
