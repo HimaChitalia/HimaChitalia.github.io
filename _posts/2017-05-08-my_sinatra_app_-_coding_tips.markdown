@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "My Sinatra App - Coding Tips"
-date:   2017-05-08 17:27:23 +0000
+title:  "Two things I couldn't do in my Sinatra App "
+date:   2017-05-08 13:27:24 -0400
 ---
 
 
