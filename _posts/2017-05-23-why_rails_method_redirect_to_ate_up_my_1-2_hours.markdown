@@ -15,17 +15,19 @@ It is saying that I am missing keyword end somewhere. My code for the destroy me
 
 ![Imgur](http://i.imgur.com/3yBjqyM.png)
 
-I didn't understand what was going on. Tried rewriting that method again and again, scanned entire controller carefully to find out if I had a typo. Also, tried writing same method in a different syntax.
+I didn't understand what was going on. Tried rewriting that method again and again, scanned entire controller carefully to find out if I had a typo. Also, tried writing the same method in a different syntax.
 
 ![Imgur](http://i.imgur.com/DMKuAZb.png)
 
-But, aa... No luck! Finally, after drinking a cup of coffee, spending really good chunk of time on it, I decided to take help of Learn experts. And realized that my mistake was something that I never thought of!
+But, aa... No luck! Finally, after drinking a cup of coffee, spending a really good chunk of time on it, I decided to take help of Learn experts. And realized that my mistake was something that I never thought of!
 
 A space between redirect_to and opening bracket after that!!!! Removed it, and everything started working again.
 
 ![Imgur](http://i.imgur.com/1AgcifF.png)
 
-No errors! It's strange but out of 100 times you get any errors, 99% it's a typo or unexpected things! Also, I did a little bit of research after this. And found out the more interesting syntax to write the same line.
+No errors! It's strange but out of 100 times you get any errors, 99% it's a typo or unexpected things! 
+
+Also, I free bonus! I did a little bit of research after this. And found out the more interesting syntax to write the same line.
 
 ```
 redirect_to("ActionName", "ControllerName"
