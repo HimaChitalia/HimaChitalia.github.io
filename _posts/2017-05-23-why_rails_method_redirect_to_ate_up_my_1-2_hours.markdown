@@ -27,7 +27,7 @@ A space between redirect_to and opening bracket after that!!!! Removed it, and e
 
 No errors! It's strange but out of 100 times you get any errors, 99% it's a typo or unexpected things! 
 
-Also, I free bonus! I did a little bit of research after this. And found out the more interesting syntax to write the same line.
+Also, I free bonus for you! I did a little bit of research after this. And found out the more interesting syntax to write the same line.
 
 ```
 redirect_to("ActionName", "ControllerName"
