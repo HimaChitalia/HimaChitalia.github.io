@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Why rails method "redirect_to" ate up my 1-2 hours? 
-date:   2017-05-23 18:43:06 +0000
+date:   2017-05-23 14:43:07 -0400
 ---
 
 
@@ -19,7 +19,7 @@ I didn't understand what was going on. Tried rewriting that method again and aga
 
 ![Imgur](http://i.imgur.com/DMKuAZb.png)
 
-But, aa... No luck! Finally, after drinking a cup of coffee, spending really good chunk time on it, I decided to take help of Learn experts. And realized that my mistake was something that I never thought of!
+But, aa... No luck! Finally, after drinking a cup of coffee, spending really good chunk of time on it, I decided to take help of Learn experts. And realized that my mistake was something that I never thought of!
 
 A space between redirect_to and opening bracket after that!!!! Removed it, and everything started working again.
 
