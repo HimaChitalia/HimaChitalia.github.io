@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "What to do and what not to do when you are build your Rails app!"
-date:   2017-06-14 14:21:33 +0000
+title:  "Do’s and Don’ts When You are Building a Rails App!"
+date:   2017-06-14 10:21:34 -0400
 ---
 
 
