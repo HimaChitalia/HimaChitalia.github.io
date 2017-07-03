@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Building a Simple Authentication in Rails and Sinatra Using Bcrypt"
-date:   2017-07-03 15:51:03 +0000
+date:   2017-07-03 11:51:04 -0400
 ---
 
 
