@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why jQuery's event.preventDefault() Couldn't Stop a Link From To Redirect?"
-date:   2017-07-26 19:07:56 +0000
+date:   2017-07-26 15:07:57 -0400
 ---
 
 
