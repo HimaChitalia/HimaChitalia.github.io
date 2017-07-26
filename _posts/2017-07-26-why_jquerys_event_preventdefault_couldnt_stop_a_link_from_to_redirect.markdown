@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why jQuery's event.preventDefault() Couldn't Stop a Link From To Redirect?"
+title:  "Why jQuery's event.preventDefault() Couldn't Stop a Link From Redirecting?"
 date:   2017-07-26 15:07:57 -0400
 ---
 
